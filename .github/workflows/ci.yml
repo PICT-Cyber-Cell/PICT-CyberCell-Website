@@ -1,0 +1,48 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint-type-check-format:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Checkout code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Step 4: Run ESLint for linting
+      - name: Run ESLint
+        run: npm run lint
+
+      # Step 5: Run TypeScript type checking
+      - name: Run TypeScript type checking
+        run: npm run type-check
+
+      # Step 6: Run Prettier for formatting
+      - name: Run Prettier formatting
+        run: npm run format
+
+      # Step 7: Check for formatting issues (optional)
+      - name: Check for formatting issues
+        run: |
+          git add .
+          if ! git diff --cached --exit-code; then
+            echo "Code formatting issues detected. Run 'npm run format' and commit the changes."
+            exit 1
+          fi
