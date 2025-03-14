@@ -1,0 +1,57 @@
+name: Thank You Bot
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  thank-user:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Add a thank you message for issues
+      - name: Thank for issue
+        if: github.event_name == 'issues'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { issue } = context.payload;
+            await github.rest.issues.createComment({
+              issue_number: issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `
+👋 Hello @${issue.user.login},  
+Thank you for opening this issue! We really appreciate your contribution to **${context.repo.repo}**.  
+
+Our team will review your issue and get back to you soon. In the meantime, feel free to explore our [documentation]() or join our [community]() for discussions.  
+
+Thank you again for helping us improve! 🚀  
+              `,
+            });
+
+      # Step 3: Add a thank you message for PRs
+      - name: Thank for PR
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { pull_request } = context.payload;
+            await github.rest.issues.createComment({
+              issue_number: pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `
+👋 Hello @${pull_request.user.login},  
+Thank you for submitting this pull request! We really appreciate your contribution to **${context.repo.repo}**.  
+
+Our team will review your PR shortly. In the meantime, feel free to explore our [documentation]() or join our [community]() for discussions.  
+
+Thank you again for helping us improve! 🚀  
+              `,
+            });
