@@ -19,5 +19,5 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/PICT-CyberCell-Website.git
+   git clone https://github.com/PICT-Cyber-Cell/PICT-CyberCell-Website.git
    cd PICT-CyberCell-Website
