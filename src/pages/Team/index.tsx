@@ -10,7 +10,7 @@ const Team = () => {
           Our Team
         </h1>
 
-        <TeamSection title="Founders" members={LeaderData} className="mb-20" />
+        <TeamSection title="Club Founders" members={LeaderData} className="mb-20" />
 
         <TeamSection
           title="Core Team"
