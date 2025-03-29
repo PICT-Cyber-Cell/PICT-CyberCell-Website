@@ -15,12 +15,12 @@ export const LeaderData: TeamMember[] = [
     name: 'Rushi Balapure',
     position: 'Founder & Chairperson',
     description:
-      'A passionate developer focused on creating intuitive user experiences in web technologies.',
-    image: '/sunny.png',
+      'A cybersecurity expert and developer focused on building secure with a strong emphasis on threat analysis and risk management.',
+    image: '/images/rushi.jpg',
     socials: {
-      linkedin: 'https://linkedin.com/in/johndoe',
-      instagram: 'https://instagram.com/johndoe',
-      github: 'https://github.com/johndoe',
+      linkedin: 'https://www.linkedin.com/in/rushi-balapure-75148022a/',
+      instagram: 'https://instagram.com',
+      github: 'https://github.com/Rushi-Balapure',
     },
   },
   {
@@ -28,42 +28,32 @@ export const LeaderData: TeamMember[] = [
     position: 'Vice Chairperson',
     description:
       'A passionate developer focused on creating intuitive user experiences in web technologies.',
-    image: '/sunny.png',
+    image: '/images/riddhi.png',
     socials: {
-      linkedin: 'https://linkedin.com/in/janesmith',
-      instagram: 'https://instagram.com/janesmith',
-      github: 'https://github.com/janesmith',
+      linkedin: 'https://www.linkedin.com/in/riddhi-kulkarni-9a6b84232/',
+      github: 'https://github.com/riddhikul',
+      instagram: 'https://instagram.com/',
     },
   },
   {
-    name: 'Kaushik',
+    name: 'Kaushik Aduri',
     position: 'Seceretary',
     description:
-      'An experienced designer focused on creating intuitive intuitiveintuitive user user user interfaces.',
-    image: '/sunny.png',
+      'A designer with expertise in machine learning, creating intuitive, AI-driven user interfaces that enhance digital experiences',
+    image: '/images/kaushik.jpg',
     socials: {
-      linkedin: 'https://linkedin.com/in/michaeljohnson',
-      instagram: 'https://instagram.com/michaeljohnson',
-      github: 'https://github.com/michaeljohnson',
+      linkedin: 'https://www.linkedin.com/in/kaushik-aduri-b3ba20142/',
+      instagram: 'https://instagram.com',
+      github: 'https://github.com/Kok363',
     },
   },
 ];
 
 export const coordinators: TeamMember[] = [
   {
-    name: 'Devendra Ingale',
-    position: 'Chairperson',
-    image: '/Devendra.png',
-    socials: {
-      linkedin: 'https://www.linkedin.com/in/devendra-ingale/',
-      github: 'https://github.com/Valerio-Lotus',
-      instagram: 'https://www.instagram.com/devendra_ingale_/',
-    },
-  },
-  {
     name: 'Tanmay Shingavi',
     position: 'Vice Chairperson',
-    image: '/tanmay.png',
+    image: '/images/tanmay.png',
     socials: {
       linkedin: 'https://www.linkedin.com/in/tanmay-shingavi',
       github: 'https://github.com/decodingafterlife',
@@ -71,39 +61,49 @@ export const coordinators: TeamMember[] = [
     },
   },
   {
-    name: 'Pranav Deshpande',
-    position: 'Secretary', // Changed from title to position for consistency
-    image: '/pranav.png',
+    name: 'Devendra Ingale',
+    position: 'Chairperson',
+    image: '/images/Devendra.png',
     socials: {
-      linkedin: '#',
-      github: '#',
-      instagram: '#',
+      linkedin: 'https://www.linkedin.com/in/devendra-ingale/',
+      github: 'https://github.com/Valerio-Lotus',
+      instagram: 'https://www.instagram.com/devendra_ingale_/',
     },
   },
   {
-    name: 'Kunj Chandak',
-    position: 'Technical Head', // Changed from title to position for consistency
-    image: '/kunj.png',
+    name: 'Pranav Deshpande',
+    position: 'Secretary', // Changed from title to position for consistency
+    image: '/images/pranav.png',
     socials: {
-      linkedin: 'https://www.linkedin.com/in/',
-      github: '#',
-      instagram: '#',
+      linkedin: 'https://www.linkedin.com/in/pranav-deshpande-75a80532b/',
+      github: 'https://github.com/prannavdeshpande',
+      instagram: 'https://www.instagram.com',
     },
   },
   {
     name: 'Jagdish Bainade',
     position: 'Web Security Head', // Changed from title to position for consistency
-    image: '/Jagdish.png',
+    image: '/images/Jagdish.png',
     socials: {
       linkedin: 'https://www.linkedin.com/in/',
-      github: '#',
-      instagram: '#',
+      github: 'https://github.com/Jagdish1123',
+      instagram: 'https://www.instagram.com',
+    },
+  },
+  {
+    name: 'Kunj Chandak',
+    position: 'Technical Head', // Changed from title to position for consistency
+    image: '/images/kunj.png',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/',
+      github: 'https://github.com/Kunj05',
+      instagram: 'https://www.instagram.com',
     },
   },
   {
     name: 'Aditya Gaikwad',
     position: 'Digital Forensic Head', // Changed from title to position for consistency
-    image: '/aditya.png',
+    image: '/images/aditya.png',
     socials: {
       linkedin: 'https://www.linkedin.com/in/aditya-gaikwad16/',
       github: 'https://github.com/AdityaGaikwad16',
@@ -113,7 +113,7 @@ export const coordinators: TeamMember[] = [
   {
     name: 'Kedar Attarde',
     position: 'Marketing Head', // Changed from title to position for consistency
-    image: '/kedar.png',
+    image: '/images/kedar.png',
     socials: {
       linkedin: 'https://www.linkedin.com/in/kedar-attarde-a9b9122ba/',
       github: 'https://github.com/Kedarattarde9',
@@ -124,21 +124,21 @@ export const coordinators: TeamMember[] = [
   {
     name: 'Ajinkya Kachare',
     position: 'Admin Head', // Changed from title to position for consistency
-    image: '/ajinkya.png',
+    image: '/images/ajinkya.png',
     socials: {
-      linkedin: '#',
-      github: '#',
-      instagram: '#',
+      linkedin: 'https://www.linkedin.com/in/ajinkya-kachare-93786328b/',
+      github: 'https://github.com',
+      instagram: 'https://www.instagram.com',
     },
   },
   {
     name: 'Sunny Bagul',
     position: 'Design Head', // Changed from title to position for consistency
-    image: '/sunny.png',
+    image: '/images/sunny.png',
     socials: {
-      linkedin: '#',
-      github: '#',
-      instagram: '#',
+      linkedin: 'https://www.linkedin.com/in/sunny-bagul-b38b73259/',
+      github: 'https://github.com',
+      instagram: 'https://www.instagram.com',
     },
   },
   // Add more coordinators as needed

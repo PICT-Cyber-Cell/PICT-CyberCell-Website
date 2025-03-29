@@ -13,8 +13,7 @@ const Hero = () => {
       className:
         'text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-300',
     },
-    { text: 'Cyber', className: 'text-blue-500' },
-    { text: 'Cell', className: 'text-blue-500' },
+    { text: 'CyberCell', className: 'text-blue-500' },
   ];
 
   const globeConfig = {

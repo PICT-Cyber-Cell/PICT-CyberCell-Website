@@ -26,6 +26,7 @@ const TeamSection = ({ title, members, variant = 'default', className = '' }: Te
                   src={member.image}
                   alt={member.name}
                   className={`relative ${isCompact ? 'w-48 h-48' : 'w-48 h-48'} rounded-full object-cover border-2 border-blue-500/20 group-hover:border-blue-500/40 transition-colors duration-300`}
+                  loading="lazy"
                 />
               </div>
               

@@ -26,13 +26,13 @@ const Navbar = () => {
         <div className="flex justify-between h-16 items-center">
           <Link to="/" className="flex items-center">
           <img
-        src="/logo.png"  // Replace with the actual path of your logo in the public folder
+        src="/logo.jpg"  // Replace with the actual path of your logo in the public folder
         alt="PictCyberCell Logo"
         className="h-8 w-8"  // Adjust the size of the logo
       />
 
             <span className="ml-2 text-xl font-bold text-white">
-              PictCyberCell
+              PICT CyberCell
             </span>
           </Link>
 

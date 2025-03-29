@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Github, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Github, Linkedin, Instagram } from 'lucide-react';
 
 
 const Footer = () => {
@@ -8,15 +8,14 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="space-y-4">
-            <h3 className="text-white font-bold text-lg">PictCyberCell</h3>
+            <h3 className="text-white font-bold text-lg">PICT CyberCell</h3>
             <p className="text-gray-400 text-sm">
               Empowering the next generation of cyber defenders.
             </p>
             <div className="flex space-x-4">
-              <SocialLink href="#" icon={<Github className="w-5 h-5" />} />
-              <SocialLink href="#" icon={<Twitter className="w-5 h-5" />} />
-              <SocialLink href="#" icon={<Linkedin className="w-5 h-5" />} />
-              <SocialLink href="#" icon={<Instagram className="w-5 h-5" />} />
+              <SocialLink href="https://github.com/PICT-Cyber-Cell" icon={<Github className="w-5 h-6" />} />
+              <SocialLink href="https://www.linkedin.com/in/pictcybercell/" icon={<Linkedin className="w-5 h-5" />} />
+              <SocialLink href="https://www.instagram.com/pict_cybercell/" icon={<Instagram className="w-5 h-5" />} />
             </div>
           </div>
 

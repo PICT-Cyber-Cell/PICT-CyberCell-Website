@@ -4,21 +4,21 @@ import { Users, Calendar, Trophy } from 'lucide-react';
 const stats: Stat[] = [
   {
     icon: Users,
-    value: '500+',
+    value: '300+',
     label: 'Active Members',
     description:
       'A growing community of cybersecurity enthusiasts who share knowledge and learn together.',
   },
   {
     icon: Calendar,
-    value: '100+',
+    value: '50+',
     label: 'Sessions Conducted',
     description:
       'Our team hosts workshops, training sessions, and hands-on practice to upskill the community.',
   },
   {
     icon: Trophy,
-    value: '5+',
+    value: '2+',
     label: 'CTF',
     description:
       'Participate in exciting Capture the Flag (CTF) challenges and competitions to sharpen your skills.',

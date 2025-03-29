@@ -1,4 +1,3 @@
-import React from 'react';
 import PopupEffect from './PopupEffect';
 import CloudEffect from './CloudEffect';
 import ThreatAlertEffect from './ThreatAlertEffect';
@@ -10,9 +9,9 @@ const ToolsShowcase = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-white text-center mb-16">
           <p className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-white">
-            <span className="text-inherit">🔐</span> Things We Do: Unleashing
+            <span className="text-yellow-400">🔐</span> Things We Do: Unleashing
             Excitement at PICT Cyber Cell
-            <span className="text-inherit">💡</span>
+            <span className="text-yellow-400">💡</span>
           </p>
         </h2>
 

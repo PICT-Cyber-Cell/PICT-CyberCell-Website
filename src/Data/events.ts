@@ -127,7 +127,7 @@ export const events: Event[] = [
       location: 'PICT, Pune',
       link: '',
       cems_link: '',
-      body: 'Lakshya CTF was an awesome event that I sadly missed :(',
+      body: 'Lakshya CTF was an awesome event that brought together cybersecurity enthusiasts from all over. Participants tackled a variety of challenges, including web security, reverse engineering, and cryptography. The event was a great opportunity for learning and networking, with many teams showcasing their skills and knowledge in the field.',
       cover_images: {
         data: [
           {
