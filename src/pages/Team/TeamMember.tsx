@@ -31,6 +31,7 @@ const TeamMember = ({ name, role, image, description, socials }: TeamMemberProps
             src={image}
             alt={name}
             className="relative w-32 h-32 rounded-full object-cover border-2 border-blue-500/20 group-hover:border-blue-500/40 transition-colors duration-300"
+            loading="lazy"
           />
         </div>
         
