@@ -1,25 +1,38 @@
+// App.tsx
+import { Suspense, lazy } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import ImageSlider from './components/ImageSlider';
-import ToolsShowcase from './components/ToolsShowcase/Tools.tsx';
-import Stats from './components/Stats';
 import Footer from './components/Footer';
 
-function App() {
+// Lazy load the page components
+const Home = lazy(() => import('./pages/Home'));
+const Events = lazy(() => import('./pages/Events'));
+const Team = lazy(() => import('./pages/Team'));
+const Resources = lazy(() => import('./pages/Resources'));
+const Contact = lazy(() => import('./pages/Contact'));
+const Developers = lazy(() => import('./pages/Developers'));
+
+const App = () => {
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen bg-black flex flex-col">
       <Navbar />
-      <Hero />
-      <ToolsShowcase />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-        <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-white mb-12 text-center">
-          Previous Events
-        </h2>
-        <ImageSlider />
-        <Stats />
+      <main className="flex-grow">
+        <Suspense fallback={<div>Loading...</div>}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/events" element={<Events />} />
+            <Route path="/team" element={<Team />} />
+            <Route path="/resources" element={<Resources />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/developers" element={<Developers />} />
+          </Routes>
+        </Suspense>
+      </main>
+      <div className="mt-auto">
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
-}
+};
+
 export default App;
