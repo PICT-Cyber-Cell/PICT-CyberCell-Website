@@ -173,4 +173,36 @@ export const events: Event[] = [
       status: 'past',
     },
   },
+  {
+    id: 5,
+    attributes: {
+      sigs: {
+        data: [
+          {
+            attributes: {
+              name: ['SIG'],
+            },
+          },
+        ],
+      },
+      title: 'Linux Fundamentals and Networking Basics',
+      date_time: '2025-02-23',
+      event_type: 'SIG',
+      location: 'PICT, Pune',
+      link: '',
+      cems_link: '',
+      body: 'An informative SIG session covering Linux fundamentals and networking basics. Participants learned essential Linux commands, file system navigation, and basic networking concepts to strengthen their cybersecurity foundation.',
+      cover_images: {
+        data: [
+          {
+            attributes: {
+              url: '/event_dao/event_dao7.jpeg.jpg',
+            },
+          },
+        ],
+      },
+      slider_images: ['/event_dao/event_dao7.jpeg.jpg'],
+      status: 'past',
+    },
+  },
 ];
