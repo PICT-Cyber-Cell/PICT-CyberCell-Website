@@ -49,7 +49,7 @@ export const LeaderData: TeamMember[] = [
   },
 ];
 
-export const coordinators: TeamMember[] = [
+export const PrevData: TeamMember[] = [
   {
     name: 'Tanmay Shingavi',
     position: 'Vice Chairperson',
@@ -80,65 +80,98 @@ export const coordinators: TeamMember[] = [
       instagram: 'https://www.instagram.com',
     },
   },
+];
+
+export const coordinators: TeamMember[] = [
   {
-    name: 'Jagdish Bainade',
-    position: 'Web Security Head', // Changed from title to position for consistency
-    image: '/images/Jagdish.png',
+    name: 'Mangalam Misra',
+    position: 'Chairperson',
+    image: '/images/mangalam.png',
     socials: {
-      linkedin: 'https://www.linkedin.com/in/',
-      github: 'https://github.com/Jagdish1123',
-      instagram: 'https://www.instagram.com',
+      linkedin: 'https://www.linkedin.com/in/mangalam-misra-8338a2291/',
+      github: 'https://github.com/tacjuicy ',
+      instagram: 'https://www.instagram.com/mangalam_misra/',
     },
   },
   {
-    name: 'Kunj Chandak',
+    name: 'Krish Gulati',
+    position: 'Vice Chairperson',
+    image: '/images/krish.png',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/krish-gulati-560997276',
+      github: ' https://github.com/fusion1110',
+      instagram: 'https://www.instagram.com/krishhhh_1110/',
+    },
+  },
+  {
+    name: 'Rohit Jadhav',
+    position: 'Secretary', // Changed from title to position for consistency
+    image: '/images/rohit.png',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/rohit-jadhav-696955306/',
+      github: 'https://github.com/rohit510511',
+      instagram: 'https://www.instagram.com/rohit_jadhav746?igsh=NTVzbWp0eHg0ZWU0',
+    },
+  },
+  {
+    name: 'Omkar Joshi',
     position: 'Technical Head', // Changed from title to position for consistency
-    image: '/images/kunj.png',
+    image: '/images/omkar.png',
     socials: {
-      linkedin: 'https://www.linkedin.com/in/',
-      github: 'https://github.com/Kunj05',
-      instagram: 'https://www.instagram.com',
+      linkedin: 'https://www.linkedin.com/in/omkarjoshi9/',
+      github: 'https://github.com/omkarjoshi9',
+      instagram: 'https://www.instagram.com/omkar_joshi._/',
     },
   },
   {
-    name: 'Aditya Gaikwad',
-    position: 'Digital Forensic Head', // Changed from title to position for consistency
-    image: '/images/aditya.png',
-    socials: {
-      linkedin: 'https://www.linkedin.com/in/aditya-gaikwad16/',
-      github: 'https://github.com/AdityaGaikwad16',
-      instagram: 'https://www.instagram.com/adityagaikwad1620',
-    },
-  },
-  {
-    name: 'Kedar Attarde',
-    position: 'Marketing Head', // Changed from title to position for consistency
-    image: '/images/kedar.png',
-    socials: {
-      linkedin: 'https://www.linkedin.com/in/kedar-attarde-a9b9122ba/',
-      github: 'https://github.com/Kedarattarde9',
-      instagram:
-        'https://www.instagram.com/kedar_attarde_9?igsh=MXc1aWo4bXU3ZDA5MQ==',
-    },
-  },
-  {
-    name: 'Ajinkya Kachare',
+    name: 'Arya Bejalwar',
     position: 'Admin Head', // Changed from title to position for consistency
-    image: '/images/ajinkya.png',
+    image: '/images/arya.png',
     socials: {
-      linkedin: 'https://www.linkedin.com/in/ajinkya-kachare-93786328b/',
-      github: 'https://github.com',
-      instagram: 'https://www.instagram.com',
+      linkedin: 'https://www.linkedin.com/in/arya-bejalwar-a23a46303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      github: 'https://github.com/Ryzen86',
+      instagram: 'https://www.instagram.com/arya_bejalwar?igsh=MW9iMmd4OWQwMzlneg==',
     },
   },
   {
-    name: 'Sunny Bagul',
-    position: 'Design Head', // Changed from title to position for consistency
-    image: '/images/sunny.png',
+    name: 'Arfat Kadvekar',
+    position: 'Blue Team Head', // Changed from title to position for consistency
+    image: '/images/arfat.png',
     socials: {
-      linkedin: 'https://www.linkedin.com/in/sunny-bagul-b38b73259/',
-      github: 'https://github.com',
-      instagram: 'https://www.instagram.com',
+      linkedin: 'https://www.linkedin.com/in/arfat-kadvekar-7b16a8232',
+      github: 'https://github.com/ArfatKadvekar',
+      instagram: 'https://www.instagram.com/arfat_kadvekar',
+    },
+  },
+  {
+    name: 'Riddhiraj Kulkarni',
+    position: 'Red Team Head', // Changed from title to position for consistency
+    image: '/images/riddhiraj.png',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/riddhiraj-kulkarni-989343299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      github: 'https://github.com/RiddhirajKulkarni',
+      instagram: 'https://www.instagram.com/riddhiraj_kulkarni/',
+    },
+  },
+  {
+    name: 'Atharv Raut',
+    position: 'Marketing Head', // Changed from title to position for consistency
+    image: '/images/atharv.png',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/atharv-raut-1708b9288',
+      github: 'https://github.com/RautAtharv07',
+      instagram: 'https://www.instagram.com/atharvr_07?igsh=MWdtZ3J1ZHMyeHhpMw==',
+    },
+  },
+  
+  {
+    name: 'Suyash Pathade',
+    position: 'Design Head', // Changed from title to position for consistency
+    image: '/images/suyash.png',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/suyash-pathade-64b795289',
+      github: 'https://github.com/Suyashp10',
+      instagram: 'https://www.instagram.com/suyashp10?igsh=bmh5YjFiMHJid3do',
     },
   },
   // Add more coordinators as needed

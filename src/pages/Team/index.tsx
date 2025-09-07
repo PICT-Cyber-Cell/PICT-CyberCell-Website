@@ -1,5 +1,5 @@
 import { Github, Linkedin, Instagram } from 'lucide-react';
-import { LeaderData, coordinators } from '../../Data/Team';
+import { LeaderData, coordinators, PrevData } from '../../Data/Team';
 import TeamSection from './TeamSection';
 
 const Team = () => {
@@ -17,6 +17,7 @@ const Team = () => {
           members={coordinators}
           variant="compact"
         />
+        <TeamSection title="Previous Council" members={PrevData} className="mt-10 mb-20" />
       </div>
     </div>
   );
