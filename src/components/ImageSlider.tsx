@@ -13,6 +13,10 @@ const images = [
   {
     url: "/event_webclass/event_webclass3.jpeg",
     title: "Basics of Web Vulnerabilities"
+  },
+  {
+    url: "/event_dao/event_dao7.png",
+    title: "Network Fundamentals SIG"
   }
 ];
 
