@@ -5,30 +5,21 @@ import { Terminal, Lock, Globe, Shield } from 'lucide-react';
 const events = [
   {
     id: 1,
-    title: 'Advanced Linux Workshop',
+    title: 'Digital Forensics Talk',
     date: 'Next Week',
     icon: Terminal,
     color: 'text-blue-400',
-  },
-  {
+  },{
     id: 2,
-    title: 'Cryptography Challenge',
-    date: 'Starting Soon',
-    icon: Lock,
+    title: 'Linux Fundamentals SIG',
+    date: 'TBD',
+    icon: Terminal,
     color: 'text-blue-400',
-  },
-  {
+  },{
     id: 3,
-    title: 'Web Security Masterclass',
-    date: 'Tomorrow',
-    icon: Globe,
-    color: 'text-blue-400',
-  },
-  {
-    id: 4,
-    title: 'Network Security Lab',
-    date: 'This Weekend',
-    icon: Shield,
+    title: 'Network Fundamentals SIG',
+    date: 'TBD',
+    icon: Terminal,
     color: 'text-blue-400',
   },
 ];

@@ -46,15 +46,6 @@ const Footer = () => {
           <p className="text-gray-400 text-sm">
             © {new Date().getFullYear()} PictCyberCell. All rights reserved.
           </p>
-          <p className="text-gray-400 text-sm flex items-center">
-            Made with{' '}
-            <span role="img" aria-label="heart">
-              ❤️
-            </span>{' '}
-            <FooterLink to="#" className="ml-1 text-blue-500">
-              by Web Developers
-            </FooterLink>
-          </p>
         </div>
       </div>
     </footer>

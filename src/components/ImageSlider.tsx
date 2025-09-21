@@ -15,7 +15,7 @@ const images = [
     title: "Basics of Web Vulnerabilities"
   },
   {
-    url: "/event_dao/event_dao7.png",
+    url: "/event_dao/event_dao7.jpg",
     title: "Network Fundamentals SIG"
   }
 ];

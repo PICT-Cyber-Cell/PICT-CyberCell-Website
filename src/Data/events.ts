@@ -196,12 +196,12 @@ export const events: Event[] = [
         data: [
           {
             attributes: {
-              url: '/event_dao/event_dao7.jpeg.jpg',
+              url: '/event_dao/event_dao7.jpg',
             },
           },
         ],
       },
-      slider_images: ['/event_dao/event_dao7.jpeg.jpg'],
+      slider_images: ['/event_dao/event_dao7.jpg', '/event_dao/event_dao8.jpg', '/event_dao/event_dao9.jpg', '/event_dao/event_dao10.jpg', '/event_dao/event_dao11.jpg', '/event_dao/event_dao12.jpg', '/event_dao/event_dao13.jpg'],
       status: 'past',
     },
   },

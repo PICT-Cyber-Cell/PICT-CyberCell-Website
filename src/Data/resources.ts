@@ -21,13 +21,13 @@ export const resources: Resource[] = [
   },
   {
     id: 2,
-    title: 'Network Security Tools',
+    title: 'Networking Fundamentals',
     description:
-      'Essential tools for network security analysis and monitoring.',
-    link: '#',
-    keywords: ['network', 'wireshark', 'nmap', 'security tools'],
+      'Learn the fundamentals of networking including protocols, topologies, and network architecture.',
+    link: 'https://tryhackme.com/room/whatisnetworking',
+    keywords: ['networking', 'protocols', 'topology', 'fundamentals'],
     category: 'tools',
-    difficulty: 'intermediate',
+    difficulty: 'beginner',
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ export const resources: Resource[] = [
     id: 4,
     title: 'Cryptography Basics',
     description: 'Introduction to cryptography and encryption techniques.',
-    link: '#',
+    link: 'https://tryhackme.com/room/cryptographybasics',
     keywords: ['cryptography', 'encryption', 'security', 'beginner'],
     category: 'learning',
     difficulty: 'beginner',
